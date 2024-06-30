@@ -1,0 +1,310 @@
+[
+  {
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 200,
+      "height": 200
+    },
+    "view": "vue-shape-view",
+    "shape": "foo",
+    "ports": {
+      "groups": {
+        "top": {
+          "position": "top",
+          "attrs": {
+            "circle": {
+              "r": 10,
+              "magnet": true,
+              "stroke": "#5F95FF",
+              "strokeWidth": 1,
+              "fill": "#fff",
+              "style": {
+                "visibility": "hidden"
+              }
+            }
+          }
+        },
+        "bottom": {
+          "position": "bottom",
+          "attrs": {
+            "circle": {
+              "r": 10,
+              "magnet": true,
+              "strokeWidth": 1,
+              "stroke": "#5F95FF",
+              "fill": "#fff",
+              "style": {
+                "visibility": "hidden"
+              }
+            }
+          }
+        },
+        "left": {
+          "position": "left",
+          "attrs": {
+            "circle": {
+              "r": 10,
+              "fill": "#fff",
+              "magnet": true,
+              "stroke": "#5F95FF",
+              "strokeWidth": 1,
+              "style": {
+                "visibility": "hidden"
+              }
+            }
+          }
+        },
+        "right": {
+          "position": "right",
+          "attrs": {
+            "circle": {
+              "style": {
+                "visibility": "hidden"
+              },
+              "r": 10,
+              "magnet": true,
+              "stroke": "#5F95FF",
+              "strokeWidth": 1,
+              "fill": "#fff"
+            }
+          }
+        }
+      },
+      "items": [
+        {
+          "id": "top",
+          "group": "top"
+        },
+        {
+          "id": "right1",
+          "group": "right"
+        },
+        {
+          "id": "right2",
+          "group": "right"
+        },
+        {
+          "id": "right3",
+          "group": "right"
+        },
+        {
+          "id": "right4",
+          "group": "right"
+        },
+        {
+          "id": "right5",
+          "group": "right"
+        },
+        {
+          "id": "bottom",
+          "group": "bottom"
+        },
+        {
+          "id": "left1",
+          "group": "left"
+        },
+        {
+          "id": "left2",
+          "group": "left"
+        },
+        {
+          "id": "left3",
+          "group": "left"
+        },
+        {
+          "id": "left4",
+          "group": "left"
+        },
+        {
+          "id": "left5",
+          "group": "left"
+        }
+      ]
+    },
+    "id": "foo",
+    "data": {
+      "title": "i am foo"
+    },
+    "zIndex": 1
+  },
+  {
+    "position": {
+      "x": 500,
+      "y": 500
+    },
+    "size": {
+      "width": 100,
+      "height": 100
+    },
+    "view": "vue-shape-view",
+    "shape": "bar",
+    "ports": {
+      "groups": {
+        "top": {
+          "position": "top",
+          "attrs": {
+            "circle": {
+              "r": 10,
+              "magnet": true,
+              "stroke": "#5F95FF",
+              "strokeWidth": 1,
+              "fill": "#fff",
+              "style": {
+                "visibility": "hidden"
+              }
+            }
+          }
+        },
+        "bottom": {
+          "position": "bottom",
+          "attrs": {
+            "circle": {
+              "r": 10,
+              "magnet": true,
+              "strokeWidth": 1,
+              "stroke": "#5F95FF",
+              "fill": "#fff",
+              "style": {
+                "visibility": "hidden"
+              }
+            }
+          }
+        },
+        "left": {
+          "position": "left",
+          "attrs": {
+            "circle": {
+              "r": 10,
+              "fill": "#fff",
+              "magnet": true,
+              "stroke": "#5F95FF",
+              "strokeWidth": 1,
+              "style": {
+                "visibility": "hidden"
+              }
+            }
+          }
+        },
+        "right": {
+          "position": "right",
+          "attrs": {
+            "circle": {
+              "style": {
+                "visibility": "hidden"
+              },
+              "r": 10,
+              "magnet": true,
+              "stroke": "#5F95FF",
+              "strokeWidth": 1,
+              "fill": "#fff"
+            }
+          }
+        }
+      },
+      "items": [
+        {
+          "id": "top",
+          "group": "top"
+        },
+        {
+          "id": "right1",
+          "group": "right"
+        },
+        {
+          "id": "right2",
+          "group": "right"
+        },
+        {
+          "id": "right3",
+          "group": "right"
+        },
+        {
+          "id": "right4",
+          "group": "right"
+        },
+        {
+          "id": "right5",
+          "group": "right"
+        },
+        {
+          "id": "bottom",
+          "group": "bottom"
+        },
+        {
+          "id": "left1",
+          "group": "left"
+        },
+        {
+          "id": "left2",
+          "group": "left"
+        },
+        {
+          "id": "left3",
+          "group": "left"
+        },
+        {
+          "id": "left4",
+          "group": "left"
+        },
+        {
+          "id": "left5",
+          "group": "left"
+        }
+      ]
+    },
+    "id": "bar",
+    "data": {
+      "title": "i am bar"
+    },
+    "zIndex": 2
+  },
+  {
+    "shape": "edge",
+    "attrs": {
+      "fill": {
+        "connection": true,
+        "strokeWidth": 2,
+        "fill": "none",
+        "stroke": {
+          "type": "linearGradient",
+          "stops": [
+            {
+              "offset": "0%",
+              "color": "#006EFF"
+            },
+            {
+              "offset": "100%",
+              "color": "#A42FD6"
+            }
+          ]
+        },
+        "targetMarker": {
+          "name": "block",
+          "fill": "#A42FD6",
+          "offset": 0,
+          "width": 5,
+          "height": 10
+        }
+      }
+    },
+    "id": "f2b4487c-572c-48d4-bf6e-d5e581fe9b77",
+    "markup": [
+      {
+        "tagName": "path",
+        "selector": "fill"
+      }
+    ],
+    "source": {
+      "cell": "foo",
+      "port": "right3"
+    },
+    "target": {
+      "cell": "bar",
+      "port": "top"
+    },
+    "zIndex": 3
+  }
+]
